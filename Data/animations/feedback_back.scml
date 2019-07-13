@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="perfect.png" width="145" height="179" pivot_x="0.5" pivot_y="0.985"/>
+    </folder>
+    <entity id="0" name="back">
+        <animation id="0" name="perfect" length="1000" interval="16" looping="false">
+            <mainline>
+                <key id="0" curve_type="bezier" c1="0.3461" c2="0.2864" c3="0.6406" c4="0.807512">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="250">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="450">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="3" time="700">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="4" time="850">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="5" time="995" curve_type="bezier" c1="0.314476" c2="0.4695" c3="0.6672" c4="0.821596">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="6" time="1000">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="perfect">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" angle="0" scale_x="0.525"/>
+                </key>
+                <key id="1" time="250" spin="0">
+                    <object folder="0" file="0" angle="0" scale_x="0.9"/>
+                </key>
+                <key id="2" time="995" spin="0">
+                    <object folder="0" file="0" angle="0" scale_x="0.375" a="0"/>
+                </key>
+                <key id="3" time="1000" spin="0">
+                    <object folder="0" file="0" angle="0" scale_x="0" scale_y="0" a="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

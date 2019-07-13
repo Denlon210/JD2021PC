@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="perfect.png" width="512" height="128" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="feedback">
+        <animation id="0" name="perfect" length="1000" interval="16" looping="false">
+            <mainline>
+                <key id="0" curve_type="bezier" c1="0.31614" c2="0.2488" c3="0.484193" c4="0.7887">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="133">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="249">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="448" curve_type="bezier" c1="0.202995" c2="0.7512" c3="0.6667" c4="0.6667">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="531">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+                <key id="5" time="698">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                </key>
+                <key id="6" time="850">
+                    <object_ref id="0" timeline="0" key="6" z_index="0"/>
+                </key>
+                <key id="7" time="950">
+                    <object_ref id="0" timeline="0" key="7" z_index="0"/>
+                </key>
+                <key id="8" time="976">
+                    <object_ref id="0" timeline="0" key="8" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="feedback_perfect">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" angle="6" scale_x="0.405" scale_y="0.405" a="0"/>
+                </key>
+                <key id="1" time="133" spin="0">
+                    <object folder="0" file="0" angle="6" scale_x="0.477108" scale_y="0.477108" a="0.534137"/>
+                </key>
+                <key id="2" time="249" spin="0">
+                    <object folder="0" file="0" angle="6" scale_x="0.54" scale_y="0.54"/>
+                </key>
+                <key id="3" time="448" spin="0">
+                    <object folder="0" file="0" angle="6" scale_x="0.432" scale_y="0.432" a="0.8"/>
+                </key>
+                <key id="4" time="531" spin="0">
+                    <object folder="0" file="0" angle="6" scale_x="0.449637" scale_y="0.449637" a="0.734677"/>
+                </key>
+                <key id="5" time="698" curve_type="bezier" c1="0.3333" c2="0.3333" c3="0.655574" c4="0.8545" spin="0">
+                    <object folder="0" file="0" angle="6" scale_x="0.486" scale_y="0.486" a="0.6"/>
+                </key>
+                <key id="6" time="850" curve_type="bezier" c1="0.3333" c2="0.3333" c3="0.655574" c4="0.8545" spin="0">
+                    <object folder="0" file="0" angle="6" scale_x="0.486" scale_y="0.486" a="0"/>
+                </key>
+                <key id="7" time="950" curve_type="bezier" c1="0.121464" c2="0.3005" c3="0.785358" c4="0.8075" spin="0">
+                    <object folder="0" file="0" angle="6" scale_x="0.486" scale_y="0.486" a="0"/>
+                </key>
+                <key id="8" time="976" curve_type="bezier" c1="0.121464" c2="0.3005" c3="0.785358" c4="0.8075" spin="0">
+                    <object folder="0" file="0" x="nan" y="nan" angle="6" scale_x="0" scale_y="0" a="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
