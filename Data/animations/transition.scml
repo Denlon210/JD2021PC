@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11" pixel_mode="1">
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
     <folder id="0">
         <file id="0" name="Background.png" width="480" height="270" pivot_x="0.5" pivot_y="0.5"/>
         <file id="1" name="Logo.png" width="480" height="483" pivot_x="0.5" pivot_y="0.5"/>
@@ -118,22 +118,22 @@
             </mainline>
             <timeline id="0" name="Background">
                 <key id="0" spin="0">
-                    <object folder="0" file="0" angle="0" scale_x="4" scale_y="4" a="0"/>
+                    <object folder="0" file="0" angle="0" scale_x="1" scale_y="1" a="0"/>
                 </key>
                 <key id="1" time="95" spin="0">
-                    <object folder="0" file="0" angle="0" scale_x="4" scale_y="4" a="0.542857"/>
+                    <object folder="0" file="0" angle="0" scale_x="1" scale_y="1" a="0.54"/>
                 </key>
                 <key id="2" time="175" spin="0">
-                    <object folder="0" file="0" angle="0" scale_x="4" scale_y="4"/>
+                    <object folder="0" file="0" angle="0" scale_x="1" scale_y="1"/>
                 </key>
                 <key id="3" time="295" spin="0">
-                    <object folder="0" file="0" angle="0" scale_x="4" scale_y="4"/>
+                    <object folder="0" file="0" angle="0" scale_x="1" scale_y="1"/>
                 </key>
                 <key id="4" time="360" spin="0">
-                    <object folder="0" file="0" angle="0" scale_x="4" scale_y="4"/>
+                    <object folder="0" file="0" angle="0" scale_x="1" scale_y="1"/>
                 </key>
                 <key id="5" time="370" spin="0">
-                    <object folder="0" file="0" angle="0" scale_x="4" scale_y="4"/>
+                    <object folder="0" file="0" angle="0" scale_x="1" scale_y="1"/>
                 </key>
             </timeline>
             <timeline id="1" name="Logo">
@@ -348,22 +348,22 @@
             </mainline>
             <timeline id="0" name="Background">
                 <key id="0" spin="0">
-                    <object folder="0" file="0" angle="0" scale_x="4" scale_y="4" a="0"/>
+                    <object folder="0" file="0" angle="0" scale_x="1" scale_y="1" a="0"/>
                 </key>
                 <key id="1" time="95" spin="0">
-                    <object folder="0" file="0" angle="0" scale_x="4" scale_y="4" a="0.542857"/>
+                    <object folder="0" file="0" angle="0" scale_x="1" scale_y="1" a="0.542857"/>
                 </key>
                 <key id="2" time="175" spin="0">
-                    <object folder="0" file="0" angle="0" scale_x="4" scale_y="4"/>
+                    <object folder="0" file="0" angle="0" scale_x="1" scale_y="1"/>
                 </key>
                 <key id="3" time="295" spin="0">
-                    <object folder="0" file="0" angle="0" scale_x="4" scale_y="4"/>
+                    <object folder="0" file="0" angle="0" scale_x="1" scale_y="1"/>
                 </key>
                 <key id="4" time="360" spin="0">
-                    <object folder="0" file="0" angle="0" scale_x="4" scale_y="4"/>
+                    <object folder="0" file="0" angle="0" scale_x="1" scale_y="1"/>
                 </key>
                 <key id="5" time="370" spin="0">
-                    <object folder="0" file="0" angle="0" scale_x="4" scale_y="4"/>
+                    <object folder="0" file="0" angle="0" scale_x="1" scale_y="1"/>
                 </key>
             </timeline>
             <timeline id="1" name="Logo">
@@ -466,19 +466,19 @@
             </mainline>
             <timeline id="0" name="Background">
                 <key id="0" spin="0">
-                    <object folder="0" file="0" angle="0" scale_x="4" scale_y="4"/>
+                    <object folder="0" file="0" angle="0" scale_x="1" scale_y="1"/>
                 </key>
                 <key id="1" time="50" spin="0">
-                    <object folder="0" file="0" angle="0" scale_x="4" scale_y="4"/>
+                    <object folder="0" file="0" angle="0" scale_x="1" scale_y="1"/>
                 </key>
                 <key id="2" time="150" spin="0">
-                    <object folder="0" file="0" angle="0" scale_x="4" scale_y="4" a="0.636364"/>
+                    <object folder="0" file="0" angle="0" scale_x="1" scale_y="1" a="0.636364"/>
                 </key>
                 <key id="3" time="250" spin="0">
-                    <object folder="0" file="0" angle="0" scale_x="4" scale_y="4" a="0.272727"/>
+                    <object folder="0" file="0" angle="0" scale_x="1" scale_y="1" a="0.272727"/>
                 </key>
                 <key id="4" time="325" spin="0">
-                    <object folder="0" file="0" angle="0" scale_x="4" scale_y="4" a="0"/>
+                    <object folder="0" file="0" angle="0" scale_x="1" scale_y="1" a="0"/>
                 </key>
             </timeline>
             <timeline id="1" name="Logo">
@@ -686,19 +686,19 @@
             </mainline>
             <timeline id="0" name="Background">
                 <key id="0" spin="0">
-                    <object folder="0" file="0" angle="0" scale_x="4" scale_y="4"/>
+                    <object folder="0" file="0" angle="0" scale_x="1" scale_y="1"/>
                 </key>
                 <key id="1" time="50" spin="0">
-                    <object folder="0" file="0" angle="0" scale_x="4" scale_y="4"/>
+                    <object folder="0" file="0" angle="0" scale_x="1" scale_y="1"/>
                 </key>
                 <key id="2" time="150" spin="0">
-                    <object folder="0" file="0" angle="0" scale_x="4" scale_y="4" a="0.636364"/>
+                    <object folder="0" file="0" angle="0" scale_x="1" scale_y="1" a="0.636364"/>
                 </key>
                 <key id="3" time="250" spin="0">
-                    <object folder="0" file="0" angle="0" scale_x="4" scale_y="4" a="0.272727"/>
+                    <object folder="0" file="0" angle="0" scale_x="1" scale_y="1" a="0.272727"/>
                 </key>
                 <key id="4" time="325" spin="0">
-                    <object folder="0" file="0" angle="0" scale_x="4" scale_y="4" a="0"/>
+                    <object folder="0" file="0" angle="0" scale_x="1" scale_y="1" a="0"/>
                 </key>
             </timeline>
             <timeline id="1" name="Logo">
