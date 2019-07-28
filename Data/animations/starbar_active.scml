@@ -6,7 +6,7 @@
         <file id="2" name="up.png" width="56" height="12" pivot_x="0.5" pivot_y="0"/>
     </folder>
     <entity id="0" name="starbar">
-        <animation id="0" name="p1" length="23200" interval="8" looping="false">
+        <animation id="0" name="p1" length="23200" interval="16" looping="false">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -34,13 +34,13 @@
                     <object folder="0" file="0" angle="0" scale_y="0.7"/>
                 </key>
                 <key id="1" time="200" spin="0">
-                    <object folder="0" file="0" angle="0"/>
+                    <object folder="0" file="0" angle="0" scale_y="0.7"/>
                 </key>
                 <key id="2" time="17200" spin="0">
-                    <object folder="0" file="0" angle="0"/>
+                    <object folder="0" file="0" angle="0" scale_y="0.7"/>
                 </key>
                 <key id="3" time="23200" spin="0">
-                    <object folder="0" file="0" angle="0"/>
+                    <object folder="0" file="0" angle="0" scale_y="0.7"/>
                 </key>
             </timeline>
             <timeline id="1" name="top">
@@ -48,27 +48,27 @@
                     <object folder="0" file="1" y="7" angle="0" scale_y="0.012"/>
                 </key>
                 <key id="1" time="200" spin="0">
-                    <object folder="0" file="1" y="9.75" angle="0" scale_y="0.015"/>
+                    <object folder="0" file="1" y="8.38" angle="0" scale_y="0.019028"/>
                 </key>
                 <key id="2" time="17200" spin="0">
-                    <object folder="0" file="1" y="10.862069" angle="0" scale_y="1.75"/>
+                    <object folder="0" file="1" y="8.341" angle="0" scale_y="1.75"/>
                 </key>
                 <key id="3" time="23200" spin="0">
-                    <object folder="0" file="1" y="10" angle="0" scale_y="1.75"/>
+                    <object folder="0" file="1" y="8.341" angle="0" scale_y="1.75"/>
                 </key>
             </timeline>
             <timeline id="2" name="up">
                 <key id="0" spin="0">
-                    <object folder="0" file="2" y="11" angle="0" scale_y="0.55"/>
+                    <object folder="0" file="2" y="11" angle="0" scale_y="0.7"/>
                 </key>
                 <key id="1" time="200" spin="0">
-                    <object folder="0" file="2" y="14.85" angle="0"/>
+                    <object folder="0" file="2" y="14.85" angle="0" scale_y="0.7"/>
                 </key>
                 <key id="2" time="17200" spin="0">
-                    <object folder="0" file="2" y="605" angle="0"/>
+                    <object folder="0" file="2" y="603.3" angle="0" scale_y="0.7"/>
                 </key>
                 <key id="3" time="23200" spin="0">
-                    <object folder="0" file="2" y="605" angle="0"/>
+                    <object folder="0" file="2" y="603.3" angle="0" scale_y="0.7"/>
                 </key>
             </timeline>
         </animation>
