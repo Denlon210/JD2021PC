@@ -4,7 +4,7 @@
         <file id="0" name="perfect.png" width="512" height="128" pivot_x="0.5" pivot_y="0.5"/>
     </folder>
     <entity id="0" name="feedback">
-        <animation id="0" name="perfect" length="1000" interval="16" looping="false">
+        <animation id="0" name="perfect" length="1000" interval="6" looping="false">
             <mainline>
                 <key id="0" curve_type="bezier" c1="0.31614" c2="0.2488" c3="0.484193" c4="0.7887">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>

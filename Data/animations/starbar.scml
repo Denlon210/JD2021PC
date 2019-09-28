@@ -5,7 +5,7 @@
         <file id="1" name="top.png" width="60" height="340" pivot_x="0.5" pivot_y="0"/>
     </folder>
     <entity id="0" name="starbar">
-        <animation id="0" name="bkg" length="23200" interval="16" looping="false">
+        <animation id="0" name="bkg" length="23200" interval="6" looping="false">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>

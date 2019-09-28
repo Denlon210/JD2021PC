@@ -17,7 +17,7 @@
         <file id="13" name="September.png" width="186" height="186" pivot_x="0.5" pivot_y="0.5"/>
     </folder>
     <entity id="0" name="transition">
-        <animation id="0" name="show" length="375" interval="16" looping="false">
+        <animation id="0" name="show" length="375" interval="6" looping="false">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -319,7 +319,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="1" name="show_low" length="375" interval="16" looping="false">
+        <animation id="1" name="show_low" length="375" interval="6" looping="false">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -381,7 +381,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="2" name="hide" length="375" interval="16" looping="false">
+        <animation id="2" name="hide" length="375" interval="6" looping="false">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -661,7 +661,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="3" name="hide_low" length="375" interval="16" looping="false">
+        <animation id="3" name="hide_low" length="375" interval="6" looping="false">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
