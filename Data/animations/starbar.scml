@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
     <folder id="0">
-        <file id="0" name="bottom.png" width="60" height="10" pivot_x="0.5" pivot_y="0"/>
-        <file id="1" name="top.png" width="60" height="340" pivot_x="0.5" pivot_y="0"/>
+        <file id="0" name="bottom_bkg.png" width="60" height="10" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="center_bkg.png" width="60" height="340" pivot_x="0.5" pivot_y="0"/>
     </folder>
     <entity id="0" name="starbar">
         <animation id="0" name="bkg" length="23200" interval="6" looping="false">
