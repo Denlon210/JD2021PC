@@ -4,15 +4,15 @@
         <file id="0" name="#beat-bottom.png" width="251" height="30" pivot_x="0.5" pivot_y="0.5"/>
     </folder>
     <entity id="0" name="beat">
-        <animation id="0" name="big" length="460" interval="6" looping="false">
+        <animation id="0" name="big" length="430" interval="6" looping="false">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
                 </key>
-                <key id="1" time="49">
+                <key id="1" time="50">
                     <object_ref id="0" timeline="0" key="1" z_index="0"/>
                 </key>
-                <key id="2" time="460" curve_type="cubic" c1="0.663507" c2="0.3033">
+                <key id="2" time="430" curve_type="cubic" c1="0.664" c2="0.305">
                     <object_ref id="0" timeline="0" key="2" z_index="0"/>
                 </key>
             </mainline>
@@ -20,10 +20,10 @@
                 <key id="0" spin="0">
                     <object folder="0" file="0" angle="0" scale_x="0.825" scale_y="0.925"/>
                 </key>
-                <key id="1" time="49" spin="0">
+                <key id="1" time="50" spin="0">
                     <object folder="0" file="0" angle="0" scale_x="0.94671" scale_y="0.925"/>
                 </key>
-                <key id="2" time="460" spin="0">
+                <key id="2" time="430" spin="0">
                     <object folder="0" file="0" angle="0" scale_x="0.84671" scale_y="0.925"/>
                 </key>
             </timeline>
@@ -33,10 +33,10 @@
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
                 </key>
-                <key id="1" time="49">
+                <key id="1" time="50">
                     <object_ref id="0" timeline="0" key="1" z_index="0"/>
                 </key>
-                <key id="2" time="460" curve_type="cubic" c1="0.663507" c2="0.3033">
+                <key id="2" time="430" curve_type="cubic" c1="0.664" c2="0.305">
                     <object_ref id="0" timeline="0" key="2" z_index="0"/>
                 </key>
             </mainline>
@@ -44,10 +44,10 @@
                 <key id="0" spin="0">
                     <object folder="0" file="0" angle="0" scale_x="0.84671" scale_y="0.925"/>
                 </key>
-                <key id="1" time="49" spin="0">
+                <key id="1" time="50" spin="0">
                     <object folder="0" file="0" angle="0" scale_x="0.94671" scale_y="0.925"/>
                 </key>
-                <key id="2" time="460" spin="0">
+                <key id="2" time="430" spin="0">
                     <object folder="0" file="0" angle="0" scale_x="0.825" scale_y="0.925"/>
                 </key>
             </timeline>
