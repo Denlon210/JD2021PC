@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="skin.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="avatar.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="avatar">
+        <animation id="0" name="select" length="250" interval="6" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="150">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="170">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="250">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="skin">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" angle="0" scale_x="0.95" scale_y="0.95" a="0"/>
+                </key>
+                <key id="1" time="150" spin="0">
+                    <object folder="0" file="0" angle="0" scale_x="1.14265" scale_y="1.14265" a="0.882353"/>
+                </key>
+                <key id="2" time="170" spin="0">
+                    <object folder="0" file="0" angle="0" scale_x="1.075" scale_y="1.075"/>
+                </key>
+                <key id="3" time="250" spin="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="avatar">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" angle="0" scale_x="0.95" scale_y="0.95" a="0"/>
+                </key>
+                <key id="1" time="150" spin="0">
+                    <object folder="0" file="1" angle="0" scale_x="1.05" scale_y="1.05"/>
+                </key>
+                <key id="2" time="170" spin="0">
+                    <object folder="0" file="1" angle="0" scale_x="1.055" scale_y="1.055"/>
+                </key>
+                <key id="3" time="250" spin="0">
+                    <object folder="0" file="1" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="score" length="400" interval="6" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="200">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="280">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="400">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="skin">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" angle="0" scale_x="0.95" scale_y="0.95" a="0"/>
+                </key>
+                <key id="1" time="200" spin="0">
+                    <object folder="0" file="0" angle="0" scale_x="1.1" scale_y="1.1" a="0.882353"/>
+                </key>
+                <key id="2" time="280" spin="0">
+                    <object folder="0" file="0" angle="0" scale_x="1.075" scale_y="1.075"/>
+                </key>
+                <key id="3" time="400" spin="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="avatar">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" angle="0" scale_x="0.95" scale_y="0.95" a="0"/>
+                </key>
+                <key id="1" time="200" spin="0">
+                    <object folder="0" file="1" angle="0" scale_x="1.05" scale_y="1.05"/>
+                </key>
+                <key id="2" time="280" spin="0">
+                    <object folder="0" file="1" angle="0" scale_x="1.055" scale_y="1.055"/>
+                </key>
+                <key id="3" time="400" spin="0">
+                    <object folder="0" file="1" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

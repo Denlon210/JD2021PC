@@ -1,7 +1,10 @@
 {
 		"UserName": "Happy",
-		"UserNameFontSize": 36,
+		"UserNameFontSize": 35,
+		"Title": "The Just Dancer",
+		"TitleColor": [2, 212, 56],
 		"Avatar": "1",
+		"Skin": "11",
 		"Map": "lushlife",
-		"MapQuality": "DVD",
+		"MapQuality": "HD",
 }
