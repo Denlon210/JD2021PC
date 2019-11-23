@@ -3,6 +3,8 @@
     <folder id="0">
         <file id="0" name="skin.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
         <file id="1" name="avatar.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="controller.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="triangle.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
     </folder>
     <entity id="0" name="avatar">
         <animation id="0" name="select" length="250" interval="6" looping="false">
@@ -10,18 +12,27 @@
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
                     <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
                 </key>
-                <key id="1" time="150">
+                <key id="1" time="50">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="2" time="150">
                     <object_ref id="0" timeline="0" key="1" z_index="0"/>
                     <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
                 </key>
-                <key id="2" time="170">
+                <key id="3" time="170">
                     <object_ref id="0" timeline="0" key="2" z_index="0"/>
                     <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
                 </key>
-                <key id="3" time="250">
+                <key id="4" time="250">
                     <object_ref id="0" timeline="0" key="3" z_index="0"/>
                     <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
                 </key>
             </mainline>
             <timeline id="0" name="skin">
@@ -52,8 +63,102 @@
                     <object folder="0" file="1" angle="0"/>
                 </key>
             </timeline>
+            <timeline id="2" name="controller">
+                <key id="0" time="50" spin="0">
+                    <object folder="0" file="2" x="-238" angle="0" scale_x="0.95" scale_y="0.95" a="0"/>
+                </key>
+                <key id="1" time="150" spin="0">
+                    <object folder="0" file="2" x="-238" angle="0" scale_x="1.05" scale_y="1.05"/>
+                </key>
+                <key id="2" time="170" spin="0">
+                    <object folder="0" file="2" x="-238" angle="0" scale_x="1.055" scale_y="1.055"/>
+                </key>
+                <key id="3" time="250" spin="0">
+                    <object folder="0" file="2" x="-238" angle="0"/>
+                </key>
+            </timeline>
         </animation>
-        <animation id="1" name="score" length="400" interval="6" looping="false">
+        <animation id="1" name="select_loop" length="1500" interval="6" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                </key>
+                <key id="1" time="750">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="1" z_index="4"/>
+                </key>
+                <key id="2" time="1500">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="2" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="2" z_index="4"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="skin">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+                <key id="1" time="750" spin="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+                <key id="2" time="1500" spin="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="avatar">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" angle="0"/>
+                </key>
+                <key id="1" time="750" spin="0">
+                    <object folder="0" file="1" angle="0"/>
+                </key>
+                <key id="2" time="1500" spin="0">
+                    <object folder="0" file="1" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="controller">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-238" angle="0"/>
+                </key>
+                <key id="1" time="750" spin="0">
+                    <object folder="0" file="2" x="-238" angle="0"/>
+                </key>
+                <key id="2" time="1500" spin="0">
+                    <object folder="0" file="2" x="-238" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="triangle">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-416" angle="180"/>
+                </key>
+                <key id="1" time="750" spin="0">
+                    <object folder="0" file="3" x="-416" angle="180" a="0"/>
+                </key>
+                <key id="2" time="1500" spin="0">
+                    <object folder="0" file="3" x="-416" angle="180"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="triangle_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="910"/>
+                </key>
+                <key id="1" time="750" spin="0">
+                    <object folder="0" file="3" x="910" a="0"/>
+                </key>
+                <key id="2" time="1500" spin="0">
+                    <object folder="0" file="3" x="910"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="score" length="400" interval="6" looping="false">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
