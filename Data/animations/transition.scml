@@ -193,16 +193,16 @@
             </timeline>
             <timeline id="5" name="Cmon">
                 <key id="0" spin="0">
-                    <object folder="0" file="6" x="210" y="-438" angle="0" scale_x="0.35" scale_y="0.35" a="0"/>
+                    <object folder="0" file="6" x="236" y="-438" angle="0" scale_x="0.35" scale_y="0.35" a="0"/>
                 </key>
                 <key id="1" time="95" spin="0">
-                    <object folder="0" file="6" x="210" y="-438" angle="0" scale_x="0.351" scale_y="0.351" a="0"/>
+                    <object folder="0" file="6" x="236" y="-438" angle="0" scale_x="0.351" scale_y="0.351" a="0"/>
                 </key>
                 <key id="2" time="250" spin="0">
-                    <object folder="0" file="6" x="210" y="-438" angle="0" scale_x="0.55" scale_y="0.55"/>
+                    <object folder="0" file="6" x="236" y="-438" angle="0" scale_x="0.55" scale_y="0.55"/>
                 </key>
                 <key id="3" time="400" spin="0">
-                    <object folder="0" file="6" x="210" y="-438" angle="0" scale_x="0.45" scale_y="0.45" a="0.6"/>
+                    <object folder="0" file="6" x="236" y="-438" angle="0" scale_x="0.45" scale_y="0.45" a="0.6"/>
                 </key>
             </timeline>
             <timeline id="6" name="Dancingqueen">
@@ -430,13 +430,13 @@
             </timeline>
             <timeline id="5" name="Cmon">
                 <key id="0" spin="0">
-                    <object folder="0" file="6" x="210" y="-438" angle="0" scale_x="0.45" scale_y="0.45" a="0.6"/>
+                    <object folder="0" file="6" x="236" y="-438" angle="0" scale_x="0.45" scale_y="0.45" a="0.6"/>
                 </key>
                 <key id="1" time="275" spin="0">
-                    <object folder="0" file="6" x="210" y="-438" angle="0" scale_x="0.371429" scale_y="0.371429" a="0"/>
+                    <object folder="0" file="6" x="236" y="-438" angle="0" scale_x="0.371429" scale_y="0.371429" a="0"/>
                 </key>
                 <key id="2" time="350" spin="0">
-                    <object folder="0" file="6" x="210" y="-438" angle="0" scale_x="0.35" scale_y="0.35" a="0"/>
+                    <object folder="0" file="6" x="236" y="-438" angle="0" scale_x="0.35" scale_y="0.35" a="0"/>
                 </key>
             </timeline>
             <timeline id="6" name="Dancingqueen">
@@ -622,13 +622,13 @@
             </timeline>
             <timeline id="5" name="Cmon">
                 <key id="0" spin="0">
-                    <object folder="0" file="6" x="210" y="-438" angle="0" scale_x="0.45" scale_y="0.45" a="0.6"/>
+                    <object folder="0" file="6" x="236" y="-438" angle="0" scale_x="0.45" scale_y="0.45" a="0.6"/>
                 </key>
                 <key id="1" time="600" spin="0">
-                    <object folder="0" file="6" x="210" y="-438" angle="0" scale_x="0.45" scale_y="0.45" a="0.6"/>
+                    <object folder="0" file="6" x="236" y="-438" angle="0" scale_x="0.45" scale_y="0.45" a="0.6"/>
                 </key>
                 <key id="2" time="610" spin="0">
-                    <object folder="0" file="6" x="210" y="-438" angle="0" scale_x="0.35" scale_y="0.35" a="0"/>
+                    <object folder="0" file="6" x="236" y="-438" angle="0" scale_x="0.35" scale_y="0.35" a="0"/>
                 </key>
             </timeline>
             <timeline id="6" name="Dancingqueen">
