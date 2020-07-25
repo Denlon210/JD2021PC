@@ -1,3 +1,3 @@
-# Just Dance 2020 PC Clicteam Fusion 2.5+
+# Just Dance 2021 PC
 ![JustDance](Logo.png)
-- The Just Dance 2020 fanmade game on Clicteam Fusion 2.5+ engine.
+- The Just Dance 2021 fanmade game on Clicteam Fusion 2.5+ engine.

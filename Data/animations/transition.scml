@@ -2,7 +2,7 @@
 <spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
     <folder id="0">
         <file id="0" name="Background.png" width="1920" height="1080" pivot_x="0.5" pivot_y="0.5"/>
-        <file id="1" name="Logo.png" width="653" height="657" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="Logo.png" width="658" height="658" pivot_x="0.5" pivot_y="0.5"/>
         <file id="2" name="Ifeelitcoming.png" width="186" height="186" pivot_x="0.5" pivot_y="0.5"/>
         <file id="3" name="24kalt.png" width="227" height="227" pivot_x="0.5" pivot_y="0.5"/>
         <file id="4" name="Blackwindow.png" width="217" height="217" pivot_x="0.5" pivot_y="0.5"/>
@@ -144,7 +144,7 @@
                     <object folder="0" file="1" y="-10" angle="0" scale_x="0.451" scale_y="0.451" a="0"/>
                 </key>
                 <key id="2" time="175" spin="0">
-                    <object folder="0" file="1" y="-10" angle="0" scale_x="0.682742" scale_y="0.682742" a="0.2"/>
+                    <object folder="0" file="1" y="-10" angle="0" scale_x="0.6825" scale_y="0.6825" a="0.2"/>
                 </key>
                 <key id="3" time="250" spin="0">
                     <object folder="0" file="1" y="-10" angle="0" scale_x="0.9" scale_y="0.9" a="0.9"/>
@@ -396,7 +396,7 @@
                     <object folder="0" file="1" y="-10" angle="0" scale_x="0.8" scale_y="0.8"/>
                 </key>
                 <key id="2" time="275" spin="0">
-                    <object folder="0" file="1" y="-10" angle="0" scale_x="0.414286" scale_y="0.414286" a="0"/>
+                    <object folder="0" file="1" y="-10" angle="0" scale_x="0.41425" scale_y="0.41425" a="0"/>
                 </key>
                 <key id="3" time="350" spin="0">
                     <object folder="0" file="1" y="-10" angle="0" scale_x="0.35" scale_y="0.35" a="0"/>
@@ -407,7 +407,7 @@
                     <object folder="0" file="2" x="-768" y="400" angle="0" scale_x="0.85" scale_y="0.85" a="0.8"/>
                 </key>
                 <key id="1" time="275" spin="0">
-                    <object folder="0" file="2" x="-768" y="400" angle="0" scale_x="0.692857" scale_y="0.692857" a="0"/>
+                    <object folder="0" file="2" x="-768" y="400" angle="0" scale_x="0.6925" scale_y="0.6925" a="0"/>
                 </key>
                 <key id="2" time="350" spin="0">
                     <object folder="0" file="2" x="-768" y="400" angle="0" scale_x="0.65" scale_y="0.65" a="0"/>
@@ -418,7 +418,7 @@
                     <object folder="0" file="3" x="360" y="-146" angle="0" scale_x="0.95" scale_y="0.95" a="0.9"/>
                 </key>
                 <key id="1" time="275" spin="0">
-                    <object folder="0" file="3" x="360" y="-146" angle="0" scale_x="0.792857" scale_y="0.792857" a="0"/>
+                    <object folder="0" file="3" x="360" y="-146" angle="0" scale_x="0.7925" scale_y="0.7925" a="0"/>
                 </key>
                 <key id="2" time="350" spin="0">
                     <object folder="0" file="3" x="360" y="-146" angle="0" scale_x="0.75" scale_y="0.75" a="0"/>
@@ -429,7 +429,7 @@
                     <object folder="0" file="5" x="-208" y="306" angle="0" scale_x="0.95" scale_y="0.95" a="0.95"/>
                 </key>
                 <key id="1" time="275" spin="0">
-                    <object folder="0" file="5" x="-208" y="306" angle="0" scale_x="0.792857" scale_y="0.792857" a="0"/>
+                    <object folder="0" file="5" x="-208" y="306" angle="0" scale_x="0.7925" scale_y="0.7925" a="0"/>
                 </key>
                 <key id="2" time="350" spin="0">
                     <object folder="0" file="5" x="-208" y="306" angle="0" scale_x="0.75" scale_y="0.75" a="0"/>
@@ -440,7 +440,7 @@
                     <object folder="0" file="6" x="236" y="-438" angle="0" scale_x="0.45" scale_y="0.45" a="0.6"/>
                 </key>
                 <key id="1" time="275" spin="0">
-                    <object folder="0" file="6" x="236" y="-438" angle="0" scale_x="0.371429" scale_y="0.371429" a="0"/>
+                    <object folder="0" file="6" x="236" y="-438" angle="0" scale_x="0.3715" scale_y="0.3715" a="0"/>
                 </key>
                 <key id="2" time="350" spin="0">
                     <object folder="0" file="6" x="236" y="-438" angle="0" scale_x="0.35" scale_y="0.35" a="0"/>
@@ -451,7 +451,7 @@
                     <object folder="0" file="8" x="-772" y="-386" angle="0" scale_x="0.95" scale_y="0.95" a="0.65"/>
                 </key>
                 <key id="1" time="275" spin="0">
-                    <object folder="0" file="8" x="-772" y="-386" angle="0" scale_x="0.792857" scale_y="0.792857" a="0"/>
+                    <object folder="0" file="8" x="-772" y="-386" angle="0" scale_x="0.7925" scale_y="0.7925" a="0"/>
                 </key>
                 <key id="2" time="350" spin="0">
                     <object folder="0" file="8" x="-772" y="-386" angle="0" scale_x="0.75" scale_y="0.75" a="0"/>
@@ -462,7 +462,7 @@
                     <object folder="0" file="12" x="650" y="326" angle="0" scale_x="0.95" scale_y="0.95" a="0.8"/>
                 </key>
                 <key id="1" time="275" spin="0">
-                    <object folder="0" file="12" x="650" y="326" angle="0" scale_x="0.792857" scale_y="0.792857" a="0"/>
+                    <object folder="0" file="12" x="650" y="326" angle="0" scale_x="0.7925" scale_y="0.7925" a="0"/>
                 </key>
                 <key id="2" time="350" spin="0">
                     <object folder="0" file="12" x="650" y="326" angle="0" scale_x="0.75" scale_y="0.75" a="0"/>
@@ -473,7 +473,7 @@
                     <object folder="0" file="9" x="-642" y="50" angle="0" scale_x="0.75" scale_y="0.75" a="0.8"/>
                 </key>
                 <key id="1" time="275" spin="0">
-                    <object folder="0" file="9" x="-642" y="50" angle="0" scale_x="0.671429" scale_y="0.671429" a="0"/>
+                    <object folder="0" file="9" x="-642" y="50" angle="0" scale_x="0.6715" scale_y="0.6715" a="0"/>
                 </key>
                 <key id="2" time="350" spin="0">
                     <object folder="0" file="9" x="-642" y="50" angle="0" scale_x="0.65" scale_y="0.65" a="0"/>
@@ -484,7 +484,7 @@
                     <object folder="0" file="4" x="772.941176" y="-34" angle="0" scale_x="0.8" scale_y="0.8" a="0.75"/>
                 </key>
                 <key id="1" time="275" spin="0">
-                    <object folder="0" file="4" x="770.630252" y="-34" angle="0" scale_x="0.721429" scale_y="0.721429" a="0"/>
+                    <object folder="0" file="4" x="770.630252" y="-34" angle="0" scale_x="0.7215" scale_y="0.7215" a="0"/>
                 </key>
                 <key id="2" time="350" spin="0">
                     <object folder="0" file="4" x="770" y="-34" angle="0" scale_x="0.7" scale_y="0.7" a="0"/>
@@ -495,7 +495,7 @@
                     <object folder="0" file="10" x="346" y="160" angle="0" scale_x="0.7" scale_y="0.7" a="0.5"/>
                 </key>
                 <key id="1" time="275" spin="0">
-                    <object folder="0" file="10" x="346" y="160" angle="0" scale_x="0.582143" scale_y="0.582143" a="0"/>
+                    <object folder="0" file="10" x="346" y="160" angle="0" scale_x="0.5825" scale_y="0.5825" a="0"/>
                 </key>
                 <key id="2" time="350" spin="0">
                     <object folder="0" file="10" x="346" y="160" angle="0" scale_x="0.55" scale_y="0.55" a="0"/>
@@ -506,7 +506,7 @@
                     <object folder="0" file="7" x="774" y="-444" angle="0" scale_x="0.65" scale_y="0.65" a="0.75"/>
                 </key>
                 <key id="1" time="275" spin="0">
-                    <object folder="0" file="7" x="774" y="-444" angle="0" scale_x="0.571429" scale_y="0.571429" a="0"/>
+                    <object folder="0" file="7" x="774" y="-444" angle="0" scale_x="0.5715" scale_y="0.5715" a="0"/>
                 </key>
                 <key id="2" time="350" spin="0">
                     <object folder="0" file="7" x="774" y="-444" angle="0" scale_x="0.55" scale_y="0.55" a="0"/>
@@ -517,7 +517,7 @@
                     <object folder="0" file="11" x="-330" y="-300" angle="0" scale_x="0.95" scale_y="0.95" a="0.92"/>
                 </key>
                 <key id="1" time="275" spin="0">
-                    <object folder="0" file="11" x="-330" y="-300" angle="0" scale_x="0.792857" scale_y="0.792857" a="0"/>
+                    <object folder="0" file="11" x="-330" y="-300" angle="0" scale_x="0.7925" scale_y="0.7925" a="0"/>
                 </key>
                 <key id="2" time="350" spin="0">
                     <object folder="0" file="11" x="-330" y="-300" angle="0" scale_x="0.75" scale_y="0.75" a="0"/>
