@@ -3,25 +3,30 @@
     <folder id="0">
         <file id="0" name="#beat-bottom.png" width="251" height="30" pivot_x="0.5" pivot_y="0.5"/>
         <file id="1" name="#beat-gradient.png" width="231" height="241" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="#beat-shadow.png" width="251" height="30" pivot_x="0.5" pivot_y="0.5"/>
     </folder>
     <entity id="0" name="beat">
         <animation id="0" name="big" length="430" interval="6" looping="false">
             <mainline>
-                <key id="0">
-                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
-                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                <key id="0" curve_type="quintic" c1="1" c2="0" c3="1" c4="0">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="0" z_index="2"/>
                 </key>
                 <key id="1" time="50">
-                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
-                    <object_ref id="1" timeline="0" key="2" z_index="1"/>
+                    <object_ref id="0" timeline="2" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="2" z_index="2"/>
                 </key>
                 <key id="2" time="300">
-                    <object_ref id="0" timeline="1" key="2" z_index="0"/>
-                    <object_ref id="1" timeline="0" key="4" z_index="1"/>
+                    <object_ref id="0" timeline="2" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="4" z_index="2"/>
                 </key>
                 <key id="3" time="430" curve_type="cubic" c1="0.664" c2="0.305">
-                    <object_ref id="0" timeline="1" key="3" z_index="0"/>
-                    <object_ref id="1" timeline="0" key="6" z_index="1"/>
+                    <object_ref id="0" timeline="2" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="6" z_index="2"/>
                 </key>
             </mainline>
             <timeline id="0" name="#beat-bottom_000">
@@ -29,13 +34,13 @@
                     <object folder="0" file="0" angle="0" scale_x="0.825" scale_y="0.925"/>
                 </key>
                 <key id="1" time="50" spin="0">
-                    <object folder="0" file="0" x="-0.05842" y="0.692741" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.95" scale_y="0.875"/>
+                    <object folder="0" file="0" x="-0" y="0.692741" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.95" scale_y="0.875"/>
                 </key>
                 <key id="2" time="50" spin="0">
-                    <object folder="0" file="0" y="-12" pivot_x="0.500245" pivot_y="0.016467" angle="0" scale_x="0.95" scale_y="0.875"/>
+                    <object folder="0" file="0" y="-12" pivot_x="0.5" pivot_y="0.016467" angle="0" scale_x="0.95" scale_y="0.875"/>
                 </key>
                 <key id="3" time="300" spin="0">
-                    <object folder="0" file="0" x="0.054116" y="-12.037071" pivot_x="0.500245" pivot_y="0.016467" angle="0" scale_x="0.88" scale_y="0.9"/>
+                    <object folder="0" file="0" x="0" y="-12.037071" pivot_x="0.5" pivot_y="0.016467" angle="0" scale_x="0.88" scale_y="0.9"/>
                 </key>
                 <key id="4" time="300" spin="0">
                     <object folder="0" file="0" y="-12" pivot_x="0.5" pivot_y="0.01784" angle="0" scale_x="0.88" scale_y="0.9"/>
@@ -49,32 +54,49 @@
             </timeline>
             <timeline id="1" name="#beat-gradient">
                 <key id="0" spin="0">
-                    <object folder="0" file="1" y="-8" scale_x="0.825" a="0"/>
+                    <object folder="0" file="1" y="-8" angle="0" scale_x="0.825" a="0"/>
                 </key>
                 <key id="1" time="50" spin="0">
-                    <object folder="0" file="1" y="-8" scale_x="0.95" a="0.5"/>
+                    <object folder="0" file="1" y="-8" angle="0" scale_x="0.95" a="0.5"/>
                 </key>
                 <key id="2" time="300" spin="0">
-                    <object folder="0" file="1" y="-8" scale_x="0.88" a="0.25"/>
+                    <object folder="0" file="1" y="-8" angle="0" scale_x="0.88" a="0.25"/>
                 </key>
                 <key id="3" time="430" spin="0">
-                    <object folder="0" file="1" y="-8" scale_x="0.845" a="0"/>
+                    <object folder="0" file="1" y="-8" angle="0" scale_x="0.845" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="#beat-shadow">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="2" y="-3" angle="0" scale_x="0.825" scale_y="0.925" a="0.4"/>
+                </key>
+                <key id="1" time="50" spin="0">
+                    <object folder="0" file="2" x="2" y="-3" angle="0" scale_x="0.95" scale_y="0.875" a="0.4"/>
+                </key>
+                <key id="2" time="300" spin="0">
+                    <object folder="0" file="2" x="2" y="-3" angle="0" scale_x="0.88" scale_y="0.9" a="0.4"/>
+                </key>
+                <key id="3" time="430" spin="0">
+                    <object folder="0" file="2" x="2" y="-3" angle="0" scale_x="0.845" scale_y="0.925" a="0.4"/>
                 </key>
             </timeline>
         </animation>
         <animation id="1" name="small" length="500" interval="6" looping="false">
             <mainline>
-                <key id="0">
-                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
-                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                <key id="0" curve_type="quintic" c1="1" c2="0" c3="1" c4="0">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="0" z_index="2"/>
                 </key>
                 <key id="1" time="50">
-                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
-                    <object_ref id="1" timeline="0" key="2" z_index="1"/>
+                    <object_ref id="0" timeline="2" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="2" z_index="2"/>
                 </key>
                 <key id="2" time="430" curve_type="cubic" c1="0.664" c2="0.305">
-                    <object_ref id="0" timeline="1" key="2" z_index="0"/>
-                    <object_ref id="1" timeline="0" key="4" z_index="1"/>
+                    <object_ref id="0" timeline="2" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="4" z_index="2"/>
                 </key>
             </mainline>
             <timeline id="0" name="#beat-bottom_000">
@@ -82,27 +104,38 @@
                     <object folder="0" file="0" angle="0" scale_x="0.845" scale_y="0.925"/>
                 </key>
                 <key id="1" time="50" spin="0">
-                    <object folder="0" file="0" x="0.010015" y="0.685575" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.95" scale_y="0.875"/>
+                    <object folder="0" file="0" x="-0" y="0.685575" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.95" scale_y="0.875"/>
                 </key>
                 <key id="2" time="50" spin="0">
-                    <object folder="0" file="0" y="-12" pivot_x="0.499958" pivot_y="0.01674" angle="0" scale_x="0.95" scale_y="0.875"/>
+                    <object folder="0" file="0" y="-12" pivot_x="0.5" pivot_y="0.01674" angle="0" scale_x="0.95" scale_y="0.875"/>
                 </key>
                 <key id="3" time="430" spin="0">
-                    <object folder="0" file="0" x="-0.138119" y="-12.004806" pivot_x="0.499958" pivot_y="0.01674" angle="0" scale_x="0.825" scale_y="0.9"/>
+                    <object folder="0" file="0" x="-0.129422" y="-12.004806" pivot_x="0.5" pivot_y="0.01674" angle="0" scale_x="0.825" scale_y="0.9"/>
                 </key>
                 <key id="4" time="430" spin="0">
                     <object folder="0" file="0" y="-12" pivot_x="0.500625" pivot_y="0.016918" angle="0" scale_x="0.825" scale_y="0.9"/>
                 </key>
             </timeline>
-            <timeline id="1" name="#beat-gradient_000">
+            <timeline id="1" name="#beat-gradient_001">
                 <key id="0" spin="0">
-                    <object folder="0" file="1" y="-8" scale_x="0.845" a="0"/>
+                    <object folder="0" file="1" y="-8" angle="0" scale_x="0.845" a="0"/>
                 </key>
                 <key id="1" time="50" spin="0">
-                    <object folder="0" file="1" y="-8" scale_x="0.95" a="0.5"/>
+                    <object folder="0" file="1" y="-8" angle="0" scale_x="0.95" a="0.5"/>
                 </key>
                 <key id="2" time="430" spin="0">
-                    <object folder="0" file="1" y="-8" scale_x="0.825" a="0"/>
+                    <object folder="0" file="1" y="-8" angle="0" scale_x="0.825" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="#beat-shadow">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="2" y="-3" angle="0" scale_x="0.845" scale_y="0.925" a="0.4"/>
+                </key>
+                <key id="1" time="50" spin="0">
+                    <object folder="0" file="2" x="2" y="-3" angle="0" scale_x="0.95" scale_y="0.875" a="0.4"/>
+                </key>
+                <key id="2" time="430" spin="0">
+                    <object folder="0" file="2" x="2" y="-3" angle="0" scale_x="0.825" scale_y="0.9" a="0.4"/>
                 </key>
             </timeline>
         </animation>
