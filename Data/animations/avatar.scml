@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
     <folder id="0">
-        <file id="0" name="skin.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="0" name="skin.png" width="256" height="256" pivot_x="0.49" pivot_y="0.5"/>
         <file id="1" name="avatar.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
         <file id="2" name="controller.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
         <file id="3" name="triangle.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
